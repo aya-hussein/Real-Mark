@@ -1,0 +1,427 @@
+*{
+	transition: 0.4s;
+}
+.header{
+	background: url(../images/header-bg.jpg) center center no-repeat;
+	height: 453px;
+	background-size: cover;
+	padding: 12px
+}
+.header i{
+	color: #fff
+}
+#Mynav{
+	background: #1c337b;
+	opacity: .8;
+    text-align: center;
+    position: fixed;
+    z-index: 1050;
+    padding-top: 85px;
+}
+#Mynav a{
+	color: #fff;
+	font-size: 25px;
+    font-weight: 500;
+}
+#Mynav .dropdown-menu{
+	background:#1d3eaf;
+	text-align: center;
+}
+#Mynav a:hover{
+	background:#02081b
+}
+#Mynav p
+{
+	color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    cursor: pointer;
+}
+.logo{
+	text-align: right;
+}
+.mytext{
+	transform: translateY(100%);
+}
+.mytext h1{
+	color: #fff;
+	font-weight: 400;
+}
+.mytext strong{
+	color: #fff;
+	font-weight: 600;
+	font-size: 32pt;
+}
+.p1{
+	color: #fff
+}
+.title{
+	width: 40%
+}
+
+.btn-warning{
+	color: #fff;
+	background-color: #ff9e00;
+	border-color: #ff9e00;
+}
+.btn-warning:hover{
+	background: none;
+	border-color: #ff9e00;
+	color: #ff9e00;
+	
+}
+.btn-primary{
+	background-color: #13245a;
+	border-color: #13245a;
+}
+.btn-primary:hover{
+	border-color: #13245a;
+	color: #13245a;
+	background: none
+}
+.choices{
+	padding: 30px;
+	background: #e3e3e3;
+}
+.list{
+	width: 100%;
+}
+.searchbtn{
+	margin-top: 25px
+}
+.offer{
+	padding: 20px;
+}
+.offer h3{
+	color: #bb8733;
+}
+.offer h1{
+	font-weight: 400;
+	position: relative;
+}
+.offer strong{
+	font-weight: 700;
+}
+.offer h1:after{
+	content: "";
+    background: #13245a;
+    border-right: 35px solid #bb8732;
+    border-left: 35px solid #bb8732;
+    width: 20%;
+    position: absolute;
+    height: 8px;
+    bottom: 0;
+    left: 20px;
+    margin: -9px 0;
+}
+.offer i{
+	width: 150px;
+	height: 150px;
+	margin:20px auto;
+	background-color: #13245a;
+	border-radius: 50%;
+	display: block;
+	transition: .5s;
+	color: #fff;
+    padding-top: 40px;
+}
+.offer i:hover{
+	background-color: #bb8732;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+.maintext{
+	margin-left: 60px;
+	margin-top: 20px
+}
+.project{
+	background-color: #13245a;
+	padding: 20px
+}
+.project h1{
+	font-weight: 400;
+	position: relative;
+	color: #fff
+}
+.project h1:after{
+	content: "";
+    background: #fff;
+    border-right: 35px solid #bb8732;
+    border-left: 35px solid #bb8732;
+    width: 28%;
+    position: absolute;
+    height: 8px;
+    bottom: 0;
+    left: 20px;
+    margin: -9px 0;
+}
+.project strong{
+	font-weight: 700;
+	color: #fff
+}
+
+.box-hover{
+	position: relative;
+	margin-bottom: 30px;
+	text-align: center;
+	height: 350px
+
+}
+.box-hover img{
+	width: 100%;
+	height: 100%
+}
+.yellowbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #bb8732;
+    border: 1px solid #fff;
+    padding: 20px;
+    overflow: hidden;
+    transition: .5s;
+    transform: scale(0,0); 
+}
+.yellowbox .yellow-sc{
+	border: 1px solid #fff;
+	height: 100%
+}
+
+.box-hover .yellowbox h2{
+	transform: translateY(50%);
+	height: 100%;
+	display: block;
+	color: #fff;
+	font-weight: 700
+}
+
+.box-hover:hover .yellowbox{
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	/*transform: translate(-50%,0);*/
+	transform: scale(1,1); 
+}
+
+.city{
+	color: #fff;
+	top: 10px;
+	position: absolute;
+	left: -6px;
+	border-left: 15px solid #ff9e00;
+	padding-left: 5px
+
+}
+.news{
+	padding: 25px
+}
+.news img{
+	width: 100%;
+	height: 100%
+}
+.news h1{
+	font-weight: 400;
+	position: relative;
+}
+.news strong{
+	font-weight: 700;
+}
+.news h1:after{
+	content: "";
+    background: #13245a;
+    border-right: 35px solid #bb8732;
+    border-left: 35px solid #bb8732;
+    width: 17%;
+    position: absolute;
+    height: 8px;
+    bottom: 0;
+    left: 20px;
+    margin: -9px 0;
+}
+.backpic{
+	background-color: #dadada;
+	position: relative;
+	width: 100%;
+}
+.details{
+	background: #378fd3;
+	position: absolute;
+	top: 0;
+	bottom:0 ;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	transform: scale(0,1);
+	transition: 0.5s;
+	text-align: center;
+    padding: 25px 13px;
+	
+}
+.backpic:hover .details{
+	transform:scale(1,1);
+}
+.question{
+	background: url(../images/question.jpg) center center no-repeat;
+	background-size: cover;
+	height: 240px;
+	padding: 30px
+}
+.question h1{
+	font-weight: 400;
+}
+.question strong{
+	font-weight: 700;
+}
+.find{
+	background:  #13245a;
+	padding: 30px;
+	color: #fff
+}
+.find i{
+	color: #fff
+}
+.find h1{
+	font-weight: 400;
+	position: relative;
+	color: #fff
+}
+.find h1:after{
+	content: "";
+    background: #fff;
+    border-right: 35px solid #bb8732;
+    border-left: 35px solid #bb8732;
+    width: 65%;
+    position: absolute;
+    height: 8px;
+    bottom: 0;
+    left: 20px;
+    margin: -9px 0;
+}
+.find strong{
+	font-weight: 700;
+	color: #fff
+}
+.find button{
+	margin-top: 15px
+}
+.myinput{
+	border-width: 3px;
+	border-radius: 0%;
+	border-left: hidden;
+	border-top: hidden;
+	border-right: hidden;
+	margin-bottom: 5px;
+
+
+}
+/*.myinput::placeholder{
+	color: #000
+}*/
+.mytextarea{
+	border-width: 3px;
+	border-radius: 0%;
+}
+iframe{
+	width: 100%;
+	height: 550px
+}
+.footer{
+	padding: 30px
+}
+.footer i{
+	width: 30px;
+	height: 30px;
+	background-color: #2e2e2e;
+    color: #fff;
+    padding-top: 7px;
+	border-radius: 50%;
+	display: inline-block;
+	transition: 0.5s;
+}
+.footer i:hover{
+	background: #bb8732;
+	transform: rotate(180deg);
+}
+
+
+
+
+/*MOBILE*/
+@media (max-width: 991px) and (min-width: 767px){
+	.details h3{
+		font-size: 20px !important;
+	}
+	.details p{
+		font-size: 9px !important;
+	}
+	.details .btn-warning{
+		font-size: 10px !important;
+	}
+}
+@media (max-width: 767px){
+	.backpic{
+		margin-bottom: 20px;
+	}
+	.list{
+		margin-bottom: 10px
+	}
+}
+@media (max-width: 576px){
+
+	.offer h1:after,
+	.project h1:after,
+	.news h1:after,
+	.find h1:after{
+		display: none
+	}
+	.maintext {
+	    margin-left: 10px;
+	    font-size: 14px;
+	}
+	.logo img{
+		width: 100%
+	}
+	.mytext {
+	    transform: translateY(61%);
+	    font-size: 10px;
+	}
+	.header{
+		height: 390px
+	}
+	.project h1,
+	.offer h1,
+	.news h1,
+	.find h1{
+		font-size: 24px
+	}
+	.question{
+		height: 154px;
+   		padding: 20px;
+	}
+	.question h1 {
+    font-size: 19px;
+	}
+	.question p{
+		font-size: 12px;
+	}
+	.question button{
+		padding: 5px;
+    	font-size: 12px;
+	}
+	iframe{
+		height: 255px
+	}
+	.box-hover{
+		height: 260px
+	}
+	.box-hover .yellowbox h2{
+		transform: translateY(38%);
+	}
+}
